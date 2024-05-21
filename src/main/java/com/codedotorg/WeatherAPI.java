@@ -123,5 +123,9 @@ public class WeatherAPI {
         
         return response;
     }
-
+    
+    // Add a private constructor to hide the implicit public one
+    private WeatherAPI() {
+        // This constructor is intentionally left empty
+    }
 }
